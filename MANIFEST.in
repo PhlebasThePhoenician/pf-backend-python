@@ -1,0 +1,4 @@
+include pf-backend/schema.sql
+graft pf-backend/static
+graft pf-backend/templates
+global-exclude *.pyc
